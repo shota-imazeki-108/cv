@@ -19,7 +19,8 @@
 - JavaScript
     - Angularを用いたアプリ開発
 - SQL
-    - 基本的なCRUD操作及び分析用のクエリを用いたデータ抽出
+    - 基本的なCRUD操作
+    - 分析に使うためのデータ整形
 - R
 - Java
 - Scala
