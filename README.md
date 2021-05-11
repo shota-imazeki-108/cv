@@ -69,15 +69,15 @@
 ## 職務経歴
 ### アクセンチュア(2020/10〜)
 - BIツール及び機械学習用データマートの設計及び開発
-    - Informatica DEI / SQL Server/ Python
+    - Informatica DEI / SQL Server / Python
 - Webアプリのフロントエンド開発及びテスト
     - TypeScript / Angular / PostgreSQL / GitLab
 
 ### DATUM STUDIO(2019/02〜2020/09)
 - 自社サイトのデータ分析基盤の構築
-    - Google Analytics / BigQuery / Python / GitLab
+    - Google Analytics / Google BigQuery / Python / GitLab
 - 社内用SQL研修資料の作成
-    - PostgreSQL / BigQuery
+    - PostgreSQL / Google BigQuery
 - テキストデータの可視化及び自然言語処理モデルの構築
     - PyTorch / BERT / Amazon EMR / GitLab
 - データマート用異常検知ツールの開発
