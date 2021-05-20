@@ -84,12 +84,12 @@
     - PyTorch / BERT / Amazon EMR / GitLab
 - データマート用異常検知ツールの開発(2020/01〜2020/03)
     - Python / Amazon EMR / Amazon Deequ / GitLab
+- サービス離脱者予測モデルの構築(2019/09〜2019/12)
+    - Databricks / PySpark / GBDT / GitHub
 - 機械学習用データマートの開発及び運用(2019/08〜2019/12)
     - Databricks / PySpark / Spark SQL / Amazon S3 / GitHub
 - ニュースWebサイトのテキストマイニング(2019/07〜2019/10)
     - Databricks / PySpark / MeCab / TF-IDF / GitHub
-- サービス離脱者予測モデルの構築(2019/09〜2019/12)
-    - Databricks / PySpark / GBDT / GitHub
 - 日次の売り上げデータを用いた時系列解析(2019/05〜2019/06)
     - Python / Prophet / LSTM / CNN / GitLab
 - 機械学習アプリケーションの開発(2019/03〜2019/04)
