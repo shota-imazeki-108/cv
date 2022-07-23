@@ -57,6 +57,7 @@
     - [Tweet Sentiment Extraction](https://www.kaggle.com/c/tweet-sentiment-extraction)(263位/2225チーム)
     - [Global Wheat Detection](https://www.kaggle.com/c/global-wheat-detection)(322位/2245チーム)
     - [Riiid Answer Correctness Prediction](https://www.kaggle.com/c/riiid-test-answer-prediction)(182位/3395チーム)
+    - [Foursquare - Location Matching](https://www.kaggle.com/competitions/foursquare-location-matching)(7位/1079チーム)
 - atmaCup
     - #5 光学データの二値分類モデルの構築(44位/218チーム)
     - #9 スーパーにおける非計画購買の予測モデルの構築(13位/268チーム)
