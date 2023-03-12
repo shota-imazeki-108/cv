@@ -2,7 +2,7 @@
 
 ## 基本情報
 - 名前: 今関 翔太
-- 年齢: 28歳(社会人6年目)
+- 生年月日: 1994/05/26
 - ブログなど
     - [Qiita](https://qiita.com/shota-imazeki)
     - [Zenn](https://zenn.dev/shota_imazeki/books)
@@ -15,12 +15,14 @@
 ### 言語など
 - Python
     - 機械学習モデルの構築(テーブルデータ、自然言語処理、時系列解析)
+    - データ探索及び可視化
     - Flaskを用いたアプリ開発
 - JavaScript
     - Angularを用いたアプリ開発
 - SQL
     - 基本的なCRUD操作
-    - 分析に使うためのデータ整形
+    - 分析に使うためのデータ整形(テーブル結合やWindow関数など)
+    - BigQuery, Athena, MySQL, Spark SQLなど
 - R
 - Java
 - Scala
@@ -39,7 +41,7 @@
 - 基本情報技術者
 - 統計検定2級
 - AWS ソリューションアーキテクト-アソシエイト
-- Kaggle Competitions Expert
+- Kaggle Competitions Master(金1銀2銅1)
 - AtCoder茶色
 - TOEIC775点
 
@@ -58,6 +60,7 @@
     - [Global Wheat Detection](https://www.kaggle.com/c/global-wheat-detection)(322位/2245チーム)
     - [Riiid Answer Correctness Prediction](https://www.kaggle.com/c/riiid-test-answer-prediction)(182位/3395チーム)
     - [Foursquare - Location Matching](https://www.kaggle.com/competitions/foursquare-location-matching)(7位/1079チーム)
+    - [American Express - Default Prediction](https://www.kaggle.com/competitions/amex-default-prediction)(155位/4874チーム)
 - atmaCup
     - #5 光学データの二値分類モデルの構築(44位/218チーム)
     - #9 スーパーにおける非計画購買の予測モデルの構築(13位/268チーム)
@@ -66,13 +69,30 @@
 - システム開発やデータ分析、クラウド上でのインフラ構築など経験の幅が広いこと
 - 開発経験だけでなく、顧客との折衝や小規模チームのプロジェクト管理などの経験があること
 - 毎日どんなに忙しくても最低1分以上勉強すること(平均30分〜1時間)
+- データ連携や分析・可視化業務などでさまざまなチームとのコミュニケーションを取った経験があること
 
 ## 職務経歴
 ### BASE(2022/01~)
-データアナリストとして入社、現在はデータ理解のためにデータエンジニアとして働いています(このままデータエンジニアの方に振り切るか、分析の方にも片足入れておくかは悩み中です)。今まで触ってみたかったサービスなどに触れることができたり、自分のできることが増えたりとやりがいのある生活を送っていました。
+データエンジニア及びデータアナリストとして働いています。今まで触ってみたかったサービスなどに触れることができたり、自分のできることが増えたりとやりがいのある生活を送っていました。また社内の勉強会やLTなども経験させていただいたり、他チームと一緒にプロジェクトを進める機会がたくさんあり、やりがいのある日々を送っています。
+- 社内の分析環境等の整備(2022/10/01~)
+    - LookerやSQLの勉強会及びLTの実施 / データカタログの作成 / 社内ダッシュボードの構築 / コストやデータ品質担保のためのアラート整備
+- 新機能開発におけるKPI設定及び可視化業務(2023/01~)
+    - Google BigQuery / Looker
+- ショップの開設直後の売上予測モデルの構築(2022/12~)
+    - Python / Google BigQuery / GitHub
+- データ可視化関連のユーザーインタビューの実施及びデータ解析(2022/08~)
+    - Python / Google BigQuery / 自然言語処理
+- 外部サービスとのデータ連携作業及び可視化、効果検証など(2022/07~)
+    - Airflow / (社内情報のため伏せるが)カスタマーサポート系やユーザーコミュニティ、業務アプリ系、Web広告などの外部サービスとの連携
+- AthenaやS3からのデータ連携作業(2022/06~2022/09)
+    - Embulk / Athena / S3 / Airflow / IAM / 
+- ビジネス側からの依頼によるデータ抽出業務(2022/03~)
+    - Google BigQuery / Looker / MySQL
+- Aurora(RDBMS)アップグレード作業及び検証作業(2022/02, 2023/03)
+    - Aurora / MySQL
 - 本番DBからDWHへのストリーミングデータ連携作業(2022/03~)
     - Fluentd / Cloud Dataflow / PubSub / BigQuery / Apache Beam
-- 本番DBからDWH及びBIツールへの日次データ連携作業(2022/01~)
+- 本番DBからDWH及びBIツールへの日次バッチのデータ連携作業(2022/01~)
     - Embulk / Airflow / BigQuery / Looker / GitHub / Python / MySQL
 
 ### アクセンチュア(2020/10〜2021/12)
