@@ -1,32 +1,44 @@
 # 職務経歴書
-
 ## 基本情報
-- 名前: 今関 翔太
+- 名前: 今関 翔太(Imazeki Shota)
 - 生年月日: 1994/05/26
 - ブログなど
     - [Qiita](https://qiita.com/shota-imazeki)
     - [Zenn](https://zenn.dev/shota_imazeki/books)
     - [Kaggle](https://www.kaggle.com/imazekishota)
     - [Blog](https://shotaimazeki.hatenablog.com/)
-    - [Portfolio](https://shota-imazeki-108.github.io/portfolio.github.io/index.html)
+    - 会社のテックブログ
+        - [社内でのデータ活用を推進する取り組みの紹介](https://devblog.thebase.in/entry/2023/12/19/110000)
 
 ## スキル
-
 ### 言語など
 - Python
     - 機械学習モデルの構築(テーブルデータ、自然言語処理、時系列解析)
+    - 統計学的効果検証(t検定、カイニ乗検定、傾向スコア)
     - データ探索及び可視化
     - Flaskを用いたアプリ開発
 - JavaScript
     - Angularを用いたアプリ開発
 - SQL
     - 基本的なCRUD操作
-    - 分析に使うためのデータ整形(テーブル結合やWindow関数など)
+    - 分析に使うためのデータ整形(テーブル結合やWindow関数など)やクエリチューニング
     - BigQuery, Athena, MySQL, Spark SQLなど
 - R
 - Java
 - Scala
 - COBOL
+### インフラ関連
+- AWS
+    - RDS, ECS, ECS, S3, Athena, IAM, SageMaker
+- GCP
+    - BigQuery, Pub/Sub, Dataflow, IAM, Logging
+- ETL, ELT関連
+    - Airflow, Embulk, Apache Beam
+- BIツール
+    - Looker, Tableau
+- その他
+    - GitHub, Redmine, slack
+
 
 ### ヒューマンスキル
 - チームマネジメント
@@ -69,31 +81,36 @@
 - システム開発やデータ分析、クラウド上でのインフラ構築など経験の幅が広いこと
 - 開発経験だけでなく、顧客との折衝や小規模チームのプロジェクト管理などの経験があること
 - 毎日どんなに忙しくても最低1分以上勉強すること(平均30分〜1時間)
+- 社内での勉強会の実施(SQL, 統計学, kaggle, Looker)
 - データ連携や分析・可視化業務などでさまざまなチームとのコミュニケーションを取った経験があること
 
 ## 職務経歴
 ### BASE(2022/01~)
-データエンジニア及びデータアナリストとして働いています。今まで触ってみたかったサービスなどに触れることができたり、自分のできることが増えたりとやりがいのある生活を送っていました。また社内の勉強会やLTなども経験させていただいたり、他チームと一緒にプロジェクトを進める機会がたくさんあり、やりがいのある日々を送っています。
-- 社内の分析環境等の整備(2022/10/01~)
-    - LookerやSQLの勉強会及びLTの実施 / データカタログの作成 / 社内ダッシュボードの構築 / コストやデータ品質担保のためのアラート整備
-- 新機能開発におけるKPI設定及び可視化業務(2023/01~)
-    - Google BigQuery / Looker
-- ショップの開設直後の売上予測モデルの構築(2022/12~)
-    - Python / Google BigQuery / GitHub
-- データ可視化関連のユーザーインタビューの実施及びデータ解析(2022/08~)
-    - Python / Google BigQuery / 自然言語処理
-- 外部サービスとのデータ連携作業及び可視化、効果検証など(2022/07~)
-    - Airflow / (社内情報のため伏せるが)カスタマーサポート系やユーザーコミュニティ、業務アプリ系、Web広告などの外部サービスとの連携
-- AthenaやS3からのデータ連携作業(2022/06~2022/09)
-    - Embulk / Athena / S3 / Airflow / IAM / 
-- ビジネス側からの依頼によるデータ抽出業務(2022/03~)
-    - Google BigQuery / Looker / MySQL
-- Aurora(RDBMS)アップグレード作業及び検証作業(2022/02, 2023/03)
-    - Aurora / MySQL
-- 本番DBからDWHへのストリーミングデータ連携作業(2022/03~)
-    - Fluentd / Cloud Dataflow / PubSub / BigQuery / Apache Beam
-- 本番DBからDWH及びBIツールへの日次バッチのデータ連携作業(2022/01~)
-    - Embulk / Airflow / BigQuery / Looker / GitHub / Python / MySQL
+データエンジニア及びデータアナリストとして働いています。自分でやりたいと思ったことにチャレンジすることが推奨されていて、そのおかげで自分のできることが増えたりとやりがいのある生活を送っていました。また社内の勉強会やLTなども経験させていただいたり、他チームと一緒にプロジェクトを進める機会がたくさんあり、やりがいのある日々を送っています。
+- データエンジニア業務
+    - EmbulkからRDS S3 Exportによるデータ連携処理への変更(2023/12~2024/02)
+        - RDS / S3 / IAM / BigQuery Data Transfer / Airflow
+    - 社内のデータリテラシー向上のための勉強会などの実施(2022/10~)
+        - LookerやSQL勉強会及びLTの実施 / 全社ダッシュボードの構築 / 週一のオフィスアワー実施
+    - 外部サービスとのデータ連携作業及び可視化、効果検証など(2022/07~)
+        - Airflow / (社内情報のため伏せるが)カスタマーサポート系やユーザーコミュニティ、業務アプリ系、Web広告などの外部サービスとの連携
+    - 本番DBからDWHへのストリーミングデータ連携作業(2022/03~)
+        - Fluentd / Cloud Dataflow / PubSub / BigQuery / Apache Beam
+    - BigQueryやLookerのコスト・クエリパフォーマンス・ユーザー管理(2022/01~)
+        - BigQuery / Looker / Logging / Slack
+    - 本番DBからDWH及びBIツールへの日次バッチのデータ連携作業(2022/01~)
+        - Embulk / Airflow / BigQuery / Looker / GitHub / Python / MySQL / Athena / S3 / IAM
+- データアナリスト業務
+    - ショップの開設直後の売上予測モデルの構築(2022/12~)
+        - Python / Google BigQuery / GitHub
+    - PJへデータアナリストとして参加(2022/09~)
+        - 新機能開発におけるKPI設定、課題発見のための分析業務
+        - アンケートの自由回答分析(自然言語処理)
+        - ショップコンサルと売り上げ向上に向けた分析やダッシュボード構築
+        - カスタマーサポートのオペレーション改善のための分析、ダッシュボード構築及びアラート作成など
+    - ビジネス側からの依頼によるデータ抽出業務(2022/03~)
+        - Google BigQuery / Looker / MySQL
+        - 本業務廃止のための社内調整など
 
 ### アクセンチュア(2020/10〜2021/12)
 一時期、人手が足りないということでアプリ開発の方にヘルプで入っておりましたが、データサイエンティスト及びデータエンジニアとして中途で入社しました。業務外では、Kaggleなどのコンペや勉強会に参加したりと刺激のある生活を送ることができました。
