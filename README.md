@@ -4,43 +4,50 @@
 - 生年月日: 1994/05/26
 - ブログなど
     - [Qiita](https://qiita.com/shota-imazeki)
-    - [Zenn](https://zenn.dev/shota_imazeki/books)
     - [Kaggle](https://www.kaggle.com/imazekishota)
     - [Blog](https://shotaimazeki.hatenablog.com/)
+    - [Zenn](https://zenn.dev/shota_imazeki/books)
     - 会社のテックブログ
         - [社内でのデータ活用を推進する取り組みの紹介](https://devblog.thebase.in/entry/2023/12/19/110000)
+        - [分析基盤へのデータ連携処理をEmbulkからAmazon Aurora S3 Export機能に切り替えた話](https://devblog.thebase.in/entry/2024/03/27/110000)
+        - [AWSのDMSやブルー/グリーンデプロイを使ってMySQL8.0へ移行した話](https://devblog.thebase.in/entry/2024/08/06/120000)
 
-## スキル
-### 言語など
+# 職務要約
+データエンジニア、データアナリスト、データサイエンティスト系の業務をメインで行ってきました。
+## データアナリスト
+    - SQL, Pythonを用いたデータ探索及び可視化
+    - 統計的仮説検定を用いた効果検証
+## データエンジニア
+    - バッチ処理及びストリーミング処理によるデータ統合
+    - DWHやBIツールの構築・運用管理
+## データサイエンティスト
+    - テーブルデータや自然言語系のデータを用いた機械学習モデルの構築(統計的回帰モデル, LightGBM, BERTなど)
+
+# スキル
+## 言語など
 - Python
     - 機械学習モデルの構築(テーブルデータ、自然言語処理、時系列解析)
     - 統計学的効果検証(t検定、カイニ乗検定、傾向スコア)
     - データ探索及び可視化
     - Flaskを用いたアプリ開発
-- JavaScript
-    - Angularを用いたアプリ開発
 - SQL
     - 基本的なCRUD操作
     - 分析に使うためのデータ整形(テーブル結合やWindow関数など)やクエリチューニング
     - BigQuery, Athena, MySQL, Spark SQLなど
-- R
-- Java
-- Scala
-- COBOL
-### インフラ関連
+## インフラ関連
 - AWS
-    - RDS, ECS, ECS, S3, Athena, IAM, SageMaker
+    - RDS, ECS, EC2, S3, Athena, IAM, SageMaker
 - GCP
-    - BigQuery, Pub/Sub, Dataflow, IAM, Logging
+    - BigQuery, Pub/Sub, Dataflow, IAM, Logging, Cloud Functions
 - ETL, ELT関連
-    - Airflow, Embulk, Apache Beam
+    - Airflow, Embulk
 - BIツール
     - Looker, Tableau
 - その他
-    - GitHub, Redmine, slack
+    - GitHub, Redmine, slack, Notion
 
 
-### ヒューマンスキル
+## ヒューマンスキル
 - チームマネジメント
     - 3~10名ほどのチームのプロジェクト管理
 - プレゼンテーション
@@ -49,21 +56,13 @@
 - クライアント折衝
     - 顧客との小規模なシステム開発及び改修時の要件定義やスケジュール調整など
 
-### 保有資格など
+## 保有資格など
 - 基本情報技術者
 - 統計検定2級
 - AWS ソリューションアーキテクト-アソシエイト
 - Kaggle Competitions Master(金1銀2銅1)
 - AtCoder茶色
 - TOEIC775点
-
-### 自然言語
-- 日本語
-    - ネイティブ
-- 英語
-    - Reading: 簡単な英語論文(機械学習関連)を読んで理解できる
-    - Writing: メールでの簡単なやりとり程度
-    - Speaking & Listening: 旅行時に困らない程度の簡単なコミュケーションレベル
 
 ### コンペ参加歴
 - kaggle
@@ -88,10 +87,10 @@
 ### BASE(2022/01~)
 データエンジニア及びデータアナリストとして働いています。自分でやりたいと思ったことにチャレンジすることが推奨されていて、そのおかげで自分のできることが増えたりとやりがいのある生活を送っていました。また社内の勉強会やLTなども経験させていただいたり、他チームと一緒にプロジェクトを進める機会がたくさんあり、やりがいのある日々を送っています。
 - データエンジニア業務
+    - MySQLメジャーバージョンアップデート(MySQL5.7->8.0)
+        - RDS / ブルーグリーンデプロイ
     - EmbulkからRDS S3 Exportによるデータ連携処理への変更(2023/12~2024/02)
         - RDS / S3 / IAM / BigQuery Data Transfer / Airflow
-    - 社内のデータリテラシー向上のための勉強会などの実施(2022/10~)
-        - LookerやSQL勉強会及びLTの実施 / 全社ダッシュボードの構築 / 週一のオフィスアワー実施
     - 外部サービスとのデータ連携作業及び可視化、効果検証など(2022/07~)
         - Airflow / (社内情報のため伏せるが)カスタマーサポート系やユーザーコミュニティ、業務アプリ系、Web広告などの外部サービスとの連携
     - 本番DBからDWHへのストリーミングデータ連携作業(2022/03~)
@@ -104,7 +103,7 @@
     - ショップの開設直後の売上予測モデルの構築(2022/12~)
         - Python / Google BigQuery / GitHub
     - PJへデータアナリストとして参加(2022/09~)
-        - 新機能開発におけるKPI設定、課題発見のための分析業務
+        - 新機能開発におけるKPI設定、課題発見のための分析業務、仮設検証
         - アンケートの自由回答分析(自然言語処理)
         - ショップコンサルと売り上げ向上に向けた分析やダッシュボード構築
         - カスタマーサポートのオペレーション改善のための分析、ダッシュボード構築及びアラート作成など
