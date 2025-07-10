@@ -19,6 +19,7 @@
 - 統計的仮説検定, 効果検証
 ## データエンジニア
 - バッチ処理及びストリーミング処理によるデータ統合
+- オーケストレーションツールの構築、運用
 - DWHやBIツールの構築, 運用管理
 ## データサイエンティスト
 - テーブルデータや自然言語系のデータを用いた機械学習モデルの構築(統計的回帰モデル, LightGBM, BERTなど)
@@ -32,27 +33,24 @@
     - Flaskを用いたアプリ開発
 - SQL
     - 基本的なCRUD操作
-    - 分析に使うためのデータ整形(テーブル結合やWindow関数など)やクエリチューニング
+    - 分析に使うためのデータ整形(JOINやWindow関数など)やクエリチューニング
     - BigQuery, Athena, MySQL, Spark SQLなど
 ## インフラ関連
 - AWS
-    - RDS, ECS, EC2, S3, Athena, IAM, SageMaker
+    - RDS, ECS, EC2, S3, Athena, IAM, SageMaker, MWAA
 - GCP
     - BigQuery, Pub/Sub, Dataflow, IAM, Logging, Cloud Functions
 - ETL, ELT関連
-    - Airflow, Embulk
+    - Airflow, Embulk, Airbyte
 - BIツール
     - Looker, Tableau
 - その他
-    - GitHub, Redmine, slack, Notion
+    - GitHub, Redmine, Slack, Notion
 
 
 ## ヒューマンスキル
 - チームマネジメント
     - 3~10名ほどのチームのプロジェクト管理
-- プレゼンテーション
-    - 50~100名の場でのプレゼン
-    - 役員クラスへのプレゼン
 - クライアント折衝
     - 顧客との小規模なシステム開発及び改修時の要件定義やスケジュール調整など
 
@@ -87,12 +85,16 @@
 ### BASE(2022/01~)
 データエンジニア及びデータアナリストとして働いています。自分でやりたいと思ったことにチャレンジすることが推奨されていて、そのおかげで自分のできることが増えたりとやりがいのある生活を送っていました。また社内の勉強会やLTなども経験させていただいたり、他チームと一緒にプロジェクトを進める機会がたくさんあり、やりがいのある日々を送っています。
 - データエンジニア業務
+    - ECS版AirflowをMWAAへ移行(Airflow v1系->v2系)
+        - MWAA / S3 / VPC / Secrets Manager
+    - 生成AIを用いたSQL自動生成
+        - Gemini in BigQuery / ChatGPT
     - MySQLメジャーバージョンアップデート(MySQL5.7->8.0)
         - RDS / ブルーグリーンデプロイ
     - EmbulkからRDS S3 Exportによるデータ連携処理への変更(2023/12~2024/02)
         - RDS / S3 / IAM / BigQuery Data Transfer / Airflow
     - 外部サービスとのデータ連携作業及び可視化、効果検証など(2022/07~)
-        - Airflow / (社内情報のため伏せるが)カスタマーサポート系やユーザーコミュニティ、業務アプリ系、Web広告などの外部サービスとの連携
+        - Airflow / カスタマーサポート系やユーザーコミュニティ、業務アプリ系、Web広告などの外部サービスとの連携
     - 本番DBからDWHへのストリーミングデータ連携作業(2022/03~)
         - Fluentd / Cloud Dataflow / PubSub / BigQuery / Apache Beam
     - BigQueryやLookerのコスト・クエリパフォーマンス・ユーザー管理(2022/01~)
@@ -103,6 +105,7 @@
     - ショップの開設直後の売上予測モデルの構築(2022/12~)
         - Python / Google BigQuery / GitHub
     - PJへデータアナリストとして参加(2022/09~)
+        - ショッピングアプリでのユーザー動向解析
         - 新機能開発におけるKPI設定、課題発見のための分析業務、仮設検証
         - アンケートの自由回答分析(自然言語処理)
         - ショップコンサルと売り上げ向上に向けた分析やダッシュボード構築
